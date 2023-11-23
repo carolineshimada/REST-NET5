@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestApiNet5", "RestApiNet5\RestApiNet5.csproj", "{81E1559D-137E-4B4D-BCD7-70BCDC62FB46}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81E1559D-137E-4B4D-BCD7-70BCDC62FB46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81E1559D-137E-4B4D-BCD7-70BCDC62FB46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81E1559D-137E-4B4D-BCD7-70BCDC62FB46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81E1559D-137E-4B4D-BCD7-70BCDC62FB46}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9D3A56C3-C4EA-41DE-A7F6-188D8CB1087B}
+	EndGlobalSection
+EndGlobal
