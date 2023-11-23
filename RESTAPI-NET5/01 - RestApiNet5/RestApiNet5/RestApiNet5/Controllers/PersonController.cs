@@ -14,8 +14,6 @@ public class PersonController : ControllerBase
     private readonly ILogger<PersonController> _logger;
     private IPersonService _personService;
 
-    private bool isNumber;
-
     public PersonController(ILogger<PersonController> logger, IPersonService personService)
     {
         _logger = logger;
@@ -46,7 +44,6 @@ public class PersonController : ControllerBase
         return Ok(person);
     }
 
-
     [HttpPost]
     public IActionResult Create([FromBody]Person person)
     {
@@ -61,12 +58,9 @@ public class PersonController : ControllerBase
     public IActionResult Put([FromBody] Person person)
     {
         if (person == null)
-        {
-            return BadRequest("Pessoa não encontrada");
-        }
-        return (IActionResult)_personService.Update(person);
+        return BadRequest("Pessoa não encontrada");
+        return Ok(_personService.Update(person));
     }
-
 
     [HttpDelete("{id}")]
     public IActionResult Delete(long id)
